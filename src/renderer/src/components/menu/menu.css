@@ -1,0 +1,48 @@
+.leftSideMenuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary);
+  box-shadow: 0px 1px 10px #00000029;
+  color: var(--text-primary);
+}
+.leftSideMenuOption {
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+}
+.leftSideMenuOption:hover {
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+.leftSideMenuOption p {
+  font-weight: bold;
+  font-size: 16px;
+  text-wrap: nowrap;
+}
+.optionIcon{
+  height: 24px;
+  margin-left: 24px;
+}
+
+.leftSideMenuTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-left: 10px;
+}
+.logoImage {
+  height: auto;
+  width: 70%;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
