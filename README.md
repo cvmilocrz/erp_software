@@ -1,26 +1,26 @@
-# erp_software
+# NET ERP SOFTWARE
 
-An Electron application with React
+Aplicación desarrollada por Net. Allcorrect 
 
-## Recommended IDE Setup
+## IDE Recomendado
 
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-## Project Setup
+## INSTALACIÓN DEL PROYECTO
 
-### Install
+### Instalación
 
 ```bash
 $ npm install
 ```
 
-### Development
+### servidor de desarrollo
 
 ```bash
 $ npm run dev
 ```
 
-### Build
+### Desplegar el proyecto
 
 ```bash
 # For windows

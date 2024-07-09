@@ -1,0 +1,104 @@
+/* !estilos generales del componente*/
+.usersControlsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usersControlPadding {
+  margin-top: 28px;
+  height: 95%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px var(--shadow);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+/* !estilos de la barra de navegacion */
+.navigationBarModule {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 36px;
+  width: 100%;
+  background-color: var(--secondary);
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 5px 10px -5px var(--shadow);
+}
+.navigationBarModule p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+/* !estillos de la tabla del Modulo de Usuarios*/
+.usersTableContainer {
+  width: 95%;
+  margin-bottom: 24px;
+}
+.usersTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.usersTable table {
+  width: 100%;
+}
+.usersTable th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.usersTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.usersTable th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+/* ! estilos de los botones de la tabla */
+button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--text-primary);
+  background-color: var(--secondary);
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.usersTableModuleActionsIcon {
+  height: 24px;
+}
+.deleteButton {
+  background-color: var(--danger);
+}
+.editButton {
+  background-color: var(--warning);
+}
+.addUserButton {
+  background-color: var(--success);
+}
+/* ! barra de control de usuarios de la barra de navegacion */
+.usersControllerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  width: 95%;
+  margin-top: 16px;
+  background-color: transparent;
+}
