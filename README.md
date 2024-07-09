@@ -14,21 +14,39 @@ Aplicación desarrollada por Net. Allcorrect
 $ npm install
 ```
 
-### servidor de desarrollo
+### deplegar aplicación en modo desarrollo de escritorio
 
 ```bash
 $ npm run dev
 ```
 
-### Desplegar el proyecto
+### Desplegar el proyecto en modo producción
+
+```bash
+# Windows
+$ npm run build:win
+
+# macOS
+$ npm run build:mac
+
+# Linux
+$ npm run build:linux
+```
+## Desplegar proyecto en modo desarollo web
+
+### Acceder al directorio
 
 ```bash
 # For windows
-$ npm run build:win
+$ cd web/web_api
 
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
 ```
+
+### Iniciar el servidor de desarrollo
+
+```bash
+# For windows
+$ npm run dev
+
+```
+
